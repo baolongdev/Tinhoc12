@@ -31,7 +31,7 @@ def main(sidebar):
     root_directory = "assets/exercises/matrices_determinants"
     # file_manager = os.path.join(root_directory)
     with st.expander("Bài tập ma trận", expanded=False):
-        file_path = "assets/exercises/matrices_determinants/Bai-tap-ma-tran.pdf"
+        file_path = "assets/exercises/matrices_determinants/bai-tap-ma-tran.pdf"
         download_button("Bài tập ma trận", file_path)
         st.header("Bài 1:")
         st.image(root_directory + "/image/b11.png")
@@ -469,7 +469,7 @@ def main(sidebar):
                     st.write(np.linalg.inv(matrix))       
         
     with st.expander("Bài tập định thức", expanded=True):
-        file_path = "assets/exercises/matrices_determinants/Bai-tap-đinh-thuc-tu-luan.pdf"
+        file_path = "assets/exercises/matrices_determinants/bai-tap-đinh-thuc-tu-luan.pdf"
         download_button("Bài tập định thức", file_path)
         st.header("Bài 1: Tính các định thức sau")        
         st.image(root_directory + "/image/b21a.png")   
